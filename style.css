@@ -1,0 +1,41 @@
+body{
+    margin:0px;
+    font-family: 'Poppins', sans-serif;;
+}
+.header{
+    background-image: url(donate-today-main/images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height:850px;
+    position:relative;
+    
+}
+.donate-head{
+    color:white;
+    text-align: center;
+    padding-top:40px;
+    top:50%;
+    left:50%;
+    
+}
+.donate-head h1{
+    font-size: 60px;
+    text-transform: capitalize;
+}
+#donate-now{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 8px 16px;
+    border-radius: 4px;
+    color:white;
+    font-weight: 400;
+}
+.amount{
+    width:70%;
+    margin: auto;
+    text-align: center;
+}
+.donate-middle{
+     
+}
