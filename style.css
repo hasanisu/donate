@@ -34,13 +34,13 @@ body {
     padding: 22px 38px;
     border-radius: 4px;
     color: white;
-    font-weight: 400;
+    font-weight: bold;
     font-size: 25px;
 }
 
 .amount {
     width: 60%;
-    margin: auto;
+    margin: 150px auto;
     text-align: center;
 }
 
@@ -63,6 +63,7 @@ body {
 .font {
     color: rgb(192, 192, 192);
     margin-top: 40px;
+    
 }
 
 #downline {
@@ -72,11 +73,23 @@ body {
 
 .donate-plan {
     margin-top: 120px;
+    margin-bottom: 0;
+    
 }
+
 
 .font-manage {
     font-size: 55px;
     font-weight: 800;
+}
+#check{
+    margin-top:200px;
+    margin-bottom: 0;
+}
+#for-check{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 1px;
 }
 
 .need-donation {
@@ -89,9 +102,9 @@ body {
 .food-donate {
     width: 40%;
     height: 340px;
-    border: 0px solid green;
+    border: 0px solid #EDF5F6;
     background-color: #EDF5F6;
-    margin: 20px;
+    margin-left:20px;
     padding: 60px 10px 20px 20px;
     border-radius: 5px;
 }
@@ -99,9 +112,9 @@ body {
 .sherter-donate {
     width: 40%;
     height: 340px;
-    border: 0px solid green;
+    margin-left:20px;
+    border: 0px solid #FFEEEE;
     background-color: #FFEEEE;
-    margin: 20px;
     padding: 60px 10px 20px 20px;
     border-radius: 5px;
 }
@@ -109,20 +122,65 @@ body {
 .education-donate {
     width: 40%;
     height: 340px;
-    border: 0px solid green;
+    margin-left:20px;
+    border: 0px solid #FFF4D6;
     background-color: #FFF4D6;
-    margin: 20px;
     padding: 60px 10px 20px 20px;
     border-radius: 5px;
 }
+.happiness-people{
+    display:flex;
+    margin:100px;
+}
+.smaile-face{
+    margin-left:80px;
+    margin-right: 120px;
+    
+}
+.font-manage-1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.contribute{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 22px 38px;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+.smaile-face img{
+    width:600px;
+    height: 500px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.update{
+    text-align: center;
+    margin-top: 120px;
+}
+.font-manage1 {
+    font-size: 55px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+.font-style1{
+    font-weight: 100;
+    font-size: 20px;
+    
+}
+
 
 .email {
     display: flex;
     background-color: #FFF4D6;
     width: 60%;
     height: 250PX;
-    margin: auto;
+    margin: 50px auto;
     text-align: center;
+    
 
 }
 
@@ -153,7 +211,8 @@ body {
 footer {
     background-color: black;
     width: 100%;
-    height: 200px;
+    height: 220px;
+    margin-top: 180px;
 }
 
 .font-manage3 {
